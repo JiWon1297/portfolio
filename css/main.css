@@ -2833,3 +2833,6 @@ body {
   .fw2 {top:27%; left: 17%;}
   .fw3 {top:20%; left: 78%;}}
 
+
+  @media (max-width: 500px) {
+.nonn {display: none;}}
