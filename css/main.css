@@ -2375,11 +2375,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 400;
 }
 
-@media (max-width: 991px) {
-  .video-left {
-    margin-top: -150px;
-  }
-}
 
 /*수정 - 삭제*/
 .video-right {
@@ -2806,7 +2801,7 @@ body {
 
 
 
-.imgg {position: relative;}
+.imgg {position: relative; }
 
 
 
@@ -2833,6 +2828,15 @@ body {
   .fw2 {top:27%; left: 17%;}
   .fw3 {top:20%; left: 78%;}}
 
+  @media (max-width: 600px) {
+    .imgg img {width: 100%; margin: 0;}}
 
   @media (max-width: 500px) {
 .nonn {display: none;}}
+
+@media (max-width: 991px) {
+  .video-left {
+    margin-top: -350px;
+  }
+}
+
