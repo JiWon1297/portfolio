@@ -50,24 +50,6 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Yeon+Sung&display=swap');
-
-.noto{ font-family: 'Noto Sans KR', sans-serif; }
-.noto20{ font-family: 'Noto Sans KR', sans-serif; font-weight: 900; font-size: 20px; color: #161616;}
-.poppi {font-family: "Poppins", sans-serif; color: #181818; font-size: 20px; font-weight: 500;}
-
-
-
-
-/*폰트수정<<<<<<*/
-body {
-  color: #000000;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1.625em;
-  position: relative;
-}
 
 ol, ul {
   margin: 0;
@@ -2753,13 +2735,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   justify-content: center;
 }
 
+
+/*------------------------------------------------------------------------*/
+
+
   .movv{width: 100%; margin: 0 auto;}
 
 
   .bold {font-weight: 500; color: #fff;}
 
 
-  .hg100 {height: 200px; width: 100%; display: block;}
+  .hg100 {height: 250px; width: 100%; display: block;}
 
   @media (max-width: 991px) {
     .hg100 {display: none;}}
@@ -2789,3 +2775,61 @@ body.mobile-nav-active #mobile-nav-toggle {
   
 
   #gallery .post-date {font-weight: 500; color: #304170;}
+
+
+ 
+
+  .hello {font-size: 20px; line-height: 30px; font-weight: 300 !important; padding-bottom: 20px;}
+
+  .hello b {color: #161616; font-weight: 500;}
+
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Yeon+Sung&display=swap');
+
+.noto{ font-family: 'Noto Sans KR', sans-serif; }
+.noto20{ font-family: 'Noto Sans KR', sans-serif; font-weight: 900; font-size: 20px; color: #161616;}
+.poppi {font-family: "Poppins", sans-serif; color: #181818; font-size: 20px; font-weight: 500; line-height: 32px;}
+
+
+
+
+/*폰트수정<<<<<<*/
+body {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  position: relative;
+}
+
+
+
+.imgg {position: relative;}
+
+
+
+
+
+.fw1 {position: absolute; top:30%; left:-8%; z-index: 200; animation: rote 1.5s 0s linear infinite; transform-origin: top center;}
+.fw2 {position: absolute; top:28%; left:7%; z-index: 200;animation: rote 1.8s 0s linear infinite; transform-origin: bottom right;}
+.fw3 {position: absolute; top:20%; left:93%; z-index: 200; animation: rote2 1.7s 0s linear infinite; transform-origin: center center;}
+
+
+@keyframes rote {
+  0% { margin-top: 0; margin-left: 0; scale: 100%; rotate: 5deg;}
+50% {margin-top: 15px; margin-left: -10px; scale: 90%; rotate: -5deg;}
+100% {margin-top: 0px; margin-left: 0; scale: 100%; rotate: 5deg;}}
+
+@keyframes rote2 {
+  0% { margin-top: 0; margin-left: 0; scale: 100%; rotate: 0deg;}
+50% {margin-top: 10px; margin-left: -10px; scale: 90%; rotate: 5deg;}
+100% {margin-top: 0px; margin-left: 0; scale: 100%; rotate: 0deg;}}
+
+
+@media (max-width: 650px) {
+  .fw1 {top:30%; left: 5%;}
+  .fw2 {top:27%; left: 17%;}
+  .fw3 {top:20%; left: 78%;}}
+
