@@ -2654,7 +2654,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer-text a, .footer-text i {
   color: #202020;
 }
-
+r-area
 .whole-wrap {
   background-color: #fff;
 }
@@ -2736,6 +2736,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
   .movv{width: 100%; margin: 0 auto;}
+
+  
 
 
   .bold {font-weight: 500; color: #fff;}
@@ -2844,4 +2846,8 @@ body {
     margin-top: -350px;
   }
 }
+
+
+
+.dd2 {height: 100%; width: 100%;}
 
