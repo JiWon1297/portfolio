@@ -2765,6 +2765,8 @@ r-area
 
 #branding .post-date {color: #3b3b3b;}
 
+@media (max-width: 575px) {
+  #branding .container {width: 94%;}}
 
 .single-blog .post-tags li:hover {
   background-color: #363636;
